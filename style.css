@@ -1,3 +1,29 @@
+
+
+
+hr{
+  height: 2px;
+  color:#0000;
+  opacity: 100;
+  
+}
 body {
     padding-top: 10px;
-  }
+    text-align: center;  
+}
+
+header{
+  margin-top: 10%;
+}
+.headerimg{
+  text-align: center;
+}
+.subheading{
+  text-align: center;
+  color:coral
+}
+
+.btn1{
+  border-radius: 45%;
+  background-color:skyblue
+}
