@@ -27,3 +27,15 @@ header{
   border-radius: 45%;
   background-color:skyblue
 }
+
+#neg {
+  border-radius: 100%;
+  position: relative;
+  width:2em;
+}
+
+#pos {
+  border-radius: 90%;
+  position: relative;
+  width:2em;
+}
