@@ -14,23 +14,22 @@
   <!-- Implement from below -->
   
   <body>
-
     <div class = "row">
       <header>
         <!-- you can add the logo image here -->
-        <p class = "headerimg py-5">
+        <p class = "headerimg py-4">
           <img src="heading-src.png" alt="O's campus cafe" height = "100" style = />
         </p>
-        <button id="btnone">123</button>
     </header>
     </div>
-
+    
     <div class = "row">
       <div class="subheading">Delicious, From Scratch Recipes <br />  Close at Hand</div>
+      <div></div>
       <em >The freshest choice of UT!</em>
     </div>
     
-    
+    <!-- item 1 -->
     <div class="row p-5">
       <div class="col-sm">
         <div class="row">
@@ -39,93 +38,144 @@
 
           </div>
           <div class="col">
-            <div class="row row-cols-3">
-              <div class="col-8 text-start">salmon filet</div>
-              <div class="col text-end">$12</div>
+            <div class="row">
+              <div class="col-8 text-start">Grilled Salmon</div>
+              <div class="col text-end">$<input class="prices" readonly = "true" value=10 size="1in"/></div>
+            </div>
+            <div class="row">
+              <div class="col-11"></div>
               <div class="col-12 text-end">
-                <button>a</button> 0 <button>a</button>
+                <!-- <button id="add-btn">a</button>  <input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="10">
+                <button id="min-btn">a</button> -->
+                <div id="salmon"><p></p>
+                  <input type="button" class="neg" value="-" />
+                  <input type="text" class="ninput" value="0" size="1in" readonly="true">
+                  <input type="button" class="pos" value="+" />
+
+                </div>
               </div>
             </div>
+              
           </div> 
+          
         </div>
       </div>
     </div>
 
+    <!-- item 2 -->
     <div class="row px-5">
       <div class="col-sm">
         <div class="row">
           <div class="col-4">
-            <img href src="img2.jpg" alt="image of a hootdog withh whipped cream and sprinkles on top" width="90">
+            <img href src="img2.jpg" alt="image of hotdog and whipped cream" width="90">
 
           </div>
           <div class="col">
             <div class="row">
-              <div class="col-8 text-start">hotdog special</div>
-              <div class="col text-end">$8</div>
+              <div class="col-8 text-start">Hotdog Special</div>
+              <div class="col text-end">$<input class="prices" readonly = "true" value=8 size="1in"/></div>
+            </div>
+            <div class="row">
+              <div class="col-11"></div>
+              <div class="col-12 text-end">
+                <!-- <button id="add-btn">a</button>  <input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="10">
+                <button id="min-btn">a</button> -->
+                <div id="hotdog"><p></p>
+                  <input type="button" class="neg" value="-" />
+                  <input type="text" class="ninput" value="0" size="1in" readonly="true">
+                  <input type="button" class="pos" value="+" />
+
+                </div>
+              </div>
+            </div>
               
           </div> 
-          <div class="row">
-            <div class="col-11"></div>
-            <div class="col-12 text-end">
-              <!-- <button id="add-btn">a</button>  <input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="10">
-              <button id="min-btn">a</button> -->
-              <div id="hotdog"><p></p>
-                <input type="button" id="neg" value="-" />
-                0
-                <input type="button" id="pos" value="+" />
-
-              </div>
-              
-          </div>
-          </div>
+          
         </div>
       </div>
     </div>
 
+    <!-- item 3 -->
     <div class="row p-5">
       <div class="col-sm">
         <div class="row">
           <div class="col-4">
-            <img href src="img3.jpg" alt="image of a pizza with beans and ketchup" width="90">
+            <img href src="img3.jpg" alt="image of pizza and beans" width="90">
 
           </div>
           <div class="col">
-            <div class="row row-cols-3">
-              <div class="col-8 text-start">cafe pizza</div>
-              <div class="col-4 text-start">$10</div>
-              <div class="col text-start"><button class=btn1>order</button></div>
+            <div class="row">
+              <div class="col-8 text-start">Cafe Pizza</div>
+              <div class="col text-end">$<input class="prices" readonly = "true" value=12 size="1in"/></div>
             </div>
+            <div class="row">
+              <div class="col-11"></div>
+              <div class="col-12 text-end">
+                <!-- <button id="add-btn">a</button>  <input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="10">
+                <button id="min-btn">a</button> -->
+                <div id="pizza"><p></p>
+                  <input type="button" class="neg" value="-" />
+                  <input type="text" class="ninput" value="0" size="1in" readonly="true">
+                  <input type="button" class="pos" value="+" />
+
+                </div>
+              </div>
+            </div>
+              
           </div> 
+          
         </div>
       </div>
     </div>
 
+    <!-- item 4 -->
     <div class="row px-5">
       <div class="col-sm">
         <div class="row">
           <div class="col-4">
-            <img href src="img4.jpg" alt="image of a plate of full english breakfast (beans, bacon, sausage, egg)" width="90">
+            <img href src="img1.jpg" alt="image of a plate of english breakfast" width="90">
 
           </div>
           <div class="col">
-            <div class="row row-cols-3">
-              <div class="col-8 text-start">breakfast meal</div>
-              <div class="col-4 text-start">$14</div>
-              <div class="col text-start"><button class=btn1>order</button></div>
+            <div class="row">
+              <div class="col-8 text-start">Breakfast Meal</div>
+              <div class="col text-end">$<input class="prices" readonly = "true" value=14 size="1in"/></div>
             </div>
+            <div class="row">
+              <div class="col-11"></div>
+              <div class="col-12 text-end">
+                <!-- <button id="add-btn">a</button>  <input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="10">
+                <button id="min-btn">a</button> -->
+                <div id="breakfast"><p></p>
+                  <input type="button" class="neg" value="-" />
+                  <input type="text" class="ninput" value="0" size="1in" readonly="true">
+                  <input type="button" class="pos" value="+" />
+
+                </div>
+              </div>
+            </div>
+              
           </div> 
+          
         </div>
       </div>
     </div>
-    
-    <p>
-      
-    </p>
-    <div class="row" id="footer">
-      <p>Subtotal </p>
+
+    <!-- footer -->
+    <div class="row p-5" id="footer">
+      <div class="col-3 text-start ">
+        Subtotal
+      </div>
+      <div class="col-4 text-start">
+        $<input id="subtotal" size="4.5in" readonly="true" value="0" />
+      </div>
+      <div class="col-12 text-end">
+        <button id="order-btn">Order</button>
+        <button id="clear-btn">Clear all</button>
+      </div>
     </div>
     
-    
-    <script type="text/javascript" src= ”../P1/script.js” />
+
+    <script src="script.js"/>
   </body>
 </html>

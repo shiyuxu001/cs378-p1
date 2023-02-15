@@ -28,14 +28,44 @@ header{
   background-color:skyblue
 }
 
-#neg {
+.neg {
   border-radius: 100%;
+  position: relative;
+  border-style: solid;
+  width:2em;
+  background-color: #0000;
+}
+
+.pos {
+  border-radius: 100%;
+  border-style: solid;
+  background-color: #0000;
   position: relative;
   width:2em;
 }
 
-#pos {
-  border-radius: 90%;
-  position: relative;
-  width:2em;
+#order-btn{
+  background-color: skyblue;
+  border-radius: 50px;
+
+}
+
+#clear-btn{
+  background-color: lightgray;
+  border-radius: 50px;
+  
+}
+
+.ninput{
+  border-style: none;
+  text-align: center;
+}
+
+.prices{
+  border-style: none;
+
+}
+
+#subtotal{
+  border-style: none;
 }
