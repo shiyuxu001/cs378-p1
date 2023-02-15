@@ -4,7 +4,7 @@ const totalItems = 4;
 var subtotal = 0;
 
 //list: order name, price, num orders
-const price_dict = {"salmon":["Grilled salmon", 10, 0], "hotdog":["Hotdog Special", 8, 0], "pizza":["Cafe pizza", 12, 0], "breakfast":["Breakfasst meal", 14, 0]};
+const price_dict = {"salmon":["Grilled salmon", 10, 0], "hotdog":["Hotdog Special", 8, 0], "pizza":["Cafe pizza", 12, 0], "breakfast":["Breakfast meal", 14, 0]};
 
 var subtotal = 0;
 //attach and event when the user clicks it
@@ -75,7 +75,7 @@ function checkOrder(){
     for(const [key,value] of Object.entries(price_dict)){
         if(value[2]!=0){
             str+=value[2]
-            str+=" "+value[0];
+            str+=" "+value[0]+" ";
         }
     }
     return str;
