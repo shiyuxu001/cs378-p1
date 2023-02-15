@@ -15,7 +15,7 @@ document.getElementById("clear-btn").addEventListener("click", clearAll)
 
 for (var i = 0; i < posList.length; i++) {
     posList[i].addEventListener('click', buttonChange, false);
-}
+}   
 
 for (var i = 0; i < negList.length; i++) {
     negList[i].addEventListener('click', buttonChange, false);
