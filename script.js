@@ -62,6 +62,7 @@ orderBtn.addEventListener("click", placeOrder);
 
 //check each input field, multiply that w parent price
 function placeOrder(){
+    console.log('order placed');
     if(subtotal == 0){
         alert("No items in cart");
     }else{
